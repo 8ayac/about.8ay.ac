@@ -1,6 +1,6 @@
 import { IconDefinition } from '@fortawesome/free-brands-svg-icons';
 
-type LinkWithDescription = {
+export type LinkWithDescription = {
   url: string;
   description?: string;
 };
