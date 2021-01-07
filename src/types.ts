@@ -18,7 +18,8 @@ export type EducationalHistory = {
   faculty?: string;
   school: string;
   location: string;
-  graduatedAt?: string;
+  startedAt: string;
+  endedAt?: string;
 };
 
 export type OtherHistory = {
