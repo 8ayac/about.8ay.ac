@@ -1,4 +1,5 @@
 import { SocialInformation } from '@src/types';
+
 export const social: SocialInformation[] = [
   { description: 'Twitter', url: 'https://twitter.com/8ayac' },
   { description: 'HackerOne', url: 'https://hackerone.com/8ayac' },
