@@ -1,0 +1,52 @@
+{
+  "name": "8ayac.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "export": "next export",
+    "lint": "run-s lint:ts lint:css",
+    "lint:fix": "run-s lint:ts:fix lint:css:fix",
+    "lint:ts": "eslint src/ data/ --ext .ts,.tsx",
+    "lint:ts:fix": "eslint src/ data/ --ext .ts,.tsx --fix",
+    "lint:css": "stylelint src/styles/**/*.{css,scss}",
+    "lint:css:fix": "stylelint src/styles/**/*.{css,scss} --fix"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.35",
+    "dayjs": "^1.9.3",
+    "next": "^10.0.4",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.2",
+    "@types/node": "^14.11.10",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "rss-parser": "^3.9.0",
+    "sass": "^1.27.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
