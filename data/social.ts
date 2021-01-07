@@ -8,4 +8,8 @@ export const social: SocialInformation[] = [
     description: 'BugBounty.jp',
     url: 'https://bugbounty.jp/users/7BgpyIvzQWQXFbmBMY0Jfpse',
   },
+  {
+    description: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/yoshinori-hayashi-102656149',
+  },
 ];
