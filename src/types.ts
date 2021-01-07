@@ -1,3 +1,5 @@
+import { IconDefinition } from '@fortawesome/free-brands-svg-icons';
+
 type LinkWithDescription = {
   url: string;
   description?: string;
@@ -59,5 +61,5 @@ export type WorkHistory = {
 };
 
 export type SocialInformation = LinkWithDescription & {
-  iconPath?: string; // or url
+  icon?: IconDefinition;
 };
