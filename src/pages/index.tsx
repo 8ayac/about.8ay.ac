@@ -20,31 +20,29 @@ import { NextPage } from 'next';
 import React from 'react';
 
 const Page: NextPage = () => {
-  const histories = experiences;
+  const exp = experiences;
 
   return (
     <>
       <SiteHeader />
-      <WorkExperiencesSection
-        workExperiences={histories.work as WorkExperience[]}
-      />
+      <WorkExperiencesSection workExperiences={exp.work as WorkExperience[]} />
       <EducationSection
-        educations={histories.educations as EducationalExperience[]}
+        educations={exp.educations as EducationalExperience[]}
       />
       <AchievementsSection
-        achievements={histories.achievement as AchievementExperience[]}
+        achievements={exp.achievement as AchievementExperience[]}
       />
       <OtherActivitiesSection
-        otherActivities={histories.others as OtherExperience[]}
+        otherActivities={exp.others as OtherExperience[]}
       />
       <PersonalActivitiesSection
-        personalActivities={histories.personal as PersonalExperience[]}
+        personalActivities={exp.personal as PersonalExperience[]}
       />
       <PublicationsSection
-        publications={histories.publications as PublicationExperience[]}
+        publications={exp.publications as PublicationExperience[]}
       />
       <PresentationsSection
-        presentations={histories.presentations as PresentationExperience[]}
+        presentations={exp.presentations as PresentationExperience[]}
       />
     </>
   );
