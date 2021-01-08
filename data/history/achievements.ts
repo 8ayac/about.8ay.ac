@@ -9,7 +9,7 @@ export const achievement: AchievementHistory[] = [
       { url: 'https://caya8.hatenablog.com/entry/2017/12/24/173349' },
       { url: 'https://scan.netsecurity.ne.jp/article/2018/01/18/40514_2.html' },
     ],
-    publishedAt: '2017-12-13',
+    date: '2017-12-13',
   },
   {
     title: 'MBSD Cybersecurity Challenges 2018',
@@ -19,7 +19,7 @@ export const achievement: AchievementHistory[] = [
       { url: 'https://caya8.hatenablog.com/entry/2018/12/17/091908' },
       { url: 'https://scan.netsecurity.ne.jp/article/2019/01/16/41841.html' },
     ],
-    publishedAt: '2018-12-12',
+    date: '2018-12-12',
   },
   {
     title: '2018 GitLab BugBounty Program',
@@ -27,7 +27,7 @@ export const achievement: AchievementHistory[] = [
       'In 2018, won the 7th in GitLab BugBounty Program Hall of Fame.',
     ],
     references: [{ url: 'https://hackerone.com/gitlab/thanks/2018?type=team' }],
-    publishedAt: '2019-01-01',
+    date: '2019-01-01',
   },
   {
     title: '45th WorldSkills Competition in Kazan',
@@ -41,7 +41,7 @@ export const achievement: AchievementHistory[] = [
           'https://results.worldskills.org/results?offset=0&base_skill=546&member=14',
       },
     ],
-    publishedAt: '2019-08-27',
+    date: '2019-08-27',
   },
   {
     title: '2019 GitLab BugBounty Program',
@@ -49,6 +49,6 @@ export const achievement: AchievementHistory[] = [
       'In 2019, won the 6th in GitLab BugBounty Program Hall of Fame.',
     ],
     references: [{ url: 'https://hackerone.com/gitlab/thanks/2019?type=team' }],
-    publishedAt: '2020-01-01',
+    date: '2020-01-01',
   },
 ];

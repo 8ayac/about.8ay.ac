@@ -24,7 +24,7 @@ export const EducationSection: React.FC<{
               ]
                 .filter((v) => v)
                 .join(', ')}
-              time={[exp.startedAt, exp.endedAt]}
+              time={exp.date}
             />
           </div>
         ))}

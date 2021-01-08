@@ -17,7 +17,7 @@ export const WorkExperiencesSection: React.FC<{
               title={exp.belongsTo}
               summaries={exp.summaries}
               references={exp.references}
-              time={[exp.startedAt, exp.endedAt]}
+              time={exp.date}
             />
           </div>
         ))}

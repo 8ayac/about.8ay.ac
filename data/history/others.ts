@@ -7,6 +7,6 @@ export const others: OtherHistory[] = [
       'A user group of a local proxy tool "Burp Suite.',
       'Organizing some events and supporting other management tasks.',
     ],
-    startedAt: '2019-01-01',
+    date: '2019-01-01',
   },
 ];

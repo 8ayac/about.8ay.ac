@@ -18,7 +18,7 @@ export const OtherActivitiesSection: React.FC<{
               title={exp.title}
               summaries={exp.summaries}
               references={exp.references}
-              time={[exp.startedAt, exp.endedAt]}
+              time={exp.date}
             />
           </div>
         ))}

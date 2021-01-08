@@ -1,62 +1,63 @@
 import { IconDefinition } from '@fortawesome/free-brands-svg-icons';
 
+export type DateString = `${number}-${number}-${number}`;
+type Term = {
+  startedAt: DateString;
+  endedAt?: DateString;
+};
+
+export type ExperienceDate = DateString | Term;
+
+export interface Experience {
+  date: ExperienceDate;
+}
+
 export type LinkWithDescription = {
   url: string;
   description?: string;
 };
 
-export type AchievementHistory = {
+export type AchievementHistory = Experience & {
   title: string;
   summaries: string[];
   references: LinkWithDescription[];
-  publishedAt: string;
 };
 
-export type EducationalHistory = {
+export type EducationalHistory = Experience & {
   degree: string;
   department: string;
   faculty?: string;
   school: string;
   location: string;
-  startedAt: string;
-  endedAt?: string;
 };
 
-export type OtherHistory = {
+export type OtherHistory = Experience & {
   title: string;
   summaries?: string[];
   references?: LinkWithDescription[];
-  startedAt: string;
-  endedAt?: string;
 };
 
-export type PersonalHistory = {
+export type PersonalHistory = Experience & {
   title: string;
   summaries?: string[];
   references?: LinkWithDescription[];
-  startedAt: string;
-  endedAt?: string;
 };
 
-export type PresentationHistory = {
+export type PresentationHistory = Experience & {
   title: string;
   url: string;
   imagePath: string;
-  publishedAt: string;
 };
 
-export type PublicationHistory = {
+export type PublicationHistory = Experience & {
   title: string;
   summaries?: string[];
   references: LinkWithDescription[];
-  publishedAt: string;
 };
 
-export type WorkHistory = {
+export type WorkHistory = Experience & {
   belongsTo: string;
   position: string;
-  startedAt: string;
-  endedAt?: string;
   summaries: string[];
   references?: LinkWithDescription[];
 };

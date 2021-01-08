@@ -1,13 +1,15 @@
 import moment from '@node_modules/moment';
+import { DateString, ExperienceDate } from '@src/types';
 
-export const toDateStringForPresentation = (date: string): string => {
-  return moment(date).format('ll');
-};
+export const experienceDateToString = (expDate: ExperienceDate): string => {
+  const s = (date: DateString): string => moment(date).format('ll');
 
-export const toTermString = (
-  start: string,
-  end: string | null | undefined
-): string => {
-  if (!end) return `${toDateStringForPresentation(start)} - PRESENT`;
-  return [start, end].map((v) => toDateStringForPresentation(v)).join(' - ');
+  if (typeof expDate !== 'object') {
+    return s(expDate);
+  }
+
+  if (!expDate.endedAt) {
+    return `${s(expDate.startedAt)} - PRESENT`;
+  }
+  return `${s(expDate.startedAt)} - ${s(expDate.endedAt)}`;
 };

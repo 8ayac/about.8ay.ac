@@ -1,14 +1,14 @@
 import { Descriptions } from '@src/components/ExperienceEntry/Descriptions';
 import { TimeStamp } from '@src/components/ExperienceEntry/TimeStamp';
 import { Title } from '@src/components/ExperienceEntry/Title';
-import { LinkWithDescription } from '@src/types';
+import { ExperienceDate, LinkWithDescription } from '@src/types';
 import React from 'react';
 
 export const ExperienceEntry: React.FC<{
   title: string;
   summaries?: string[];
   references?: LinkWithDescription[];
-  time: string | [start: string, end: string | undefined];
+  time: ExperienceDate;
 }> = (props) => {
   const { title, summaries, references, time } = props;
 

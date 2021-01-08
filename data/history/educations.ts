@@ -6,6 +6,6 @@ export const educations: EducationalHistory[] = [
     department: 'Information Security',
     school: 'Information Security College',
     location: 'Kanagawa',
-    startedAt: '2017-04-01',
+    date: '2017-04-01',
   },
 ];

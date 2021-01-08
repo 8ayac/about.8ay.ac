@@ -10,7 +10,7 @@ export const publications: PublicationHistory[] = [
         description: 'HISYS Journal Vol.34',
       },
     ],
-    publishedAt: '2019-10-03',
+    date: '2019-10-03',
   },
   {
     title: '技能五輪国際大会（WorldSkills Kazan 2019）出場レポート',
@@ -21,6 +21,6 @@ export const publications: PublicationHistory[] = [
         description: 'HISYS Journal Vol.35',
       },
     ],
-    publishedAt: '2019-10-28',
+    date: '2019-10-28',
   },
 ];

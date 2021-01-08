@@ -17,7 +17,7 @@ export const AchievementsSection: React.FC<{
               title={exp.title}
               summaries={exp.summaries}
               references={exp.references}
-              time={exp.publishedAt}
+              time={exp.date}
             />
           </div>
         ))}
