@@ -11,6 +11,7 @@ module.exports = {
     node: true,
   },
   extends: [
+    'airbnb',
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
@@ -18,7 +19,6 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'airbnb',
   ],
   plugins: ['@typescript-eslint', 'import'],
   rules: {
