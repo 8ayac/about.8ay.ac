@@ -4,6 +4,7 @@ import {
   others as otherHistory,
   personal as personalHistory,
   presentations as presentationHistory,
+  publications as publicationsHistory,
   work as workHistory,
 } from '@data/history';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -15,6 +16,7 @@ const allHistories = {
   others: otherHistory,
   personal: personalHistory,
   presentations: presentationHistory,
+  publications: publicationsHistory,
   work: workHistory,
 };
 
