@@ -41,7 +41,7 @@ export type PersonalHistory = {
 export type PresentationHistory = {
   title: string;
   url: string;
-  imagePath?: string;
+  imagePath: string;
   publishedAt: string;
 };
 
