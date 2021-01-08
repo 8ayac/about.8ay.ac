@@ -6,6 +6,7 @@ import {
   presentations as presentationHistory,
   work as workHistory,
 } from '@data/history';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import fs from 'fs-extra';
 
 const allHistories = {
