@@ -1,9 +1,9 @@
 import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { WorkHistory } from '@src/types';
+import { WorkExperience } from '@src/types';
 import React from 'react';
 
 export const WorkExperiencesSection: React.FC<{
-  workExperiences: WorkHistory[];
+  workExperiences: WorkExperience[];
 }> = (props) => {
   const { workExperiences } = props;
   return (

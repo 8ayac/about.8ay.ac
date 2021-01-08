@@ -1,9 +1,9 @@
 import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { AchievementHistory } from '@src/types';
+import { AchievementExperience } from '@src/types';
 import React from 'react';
 
 export const AchievementsSection: React.FC<{
-  achievements: AchievementHistory[];
+  achievements: AchievementExperience[];
 }> = (props) => {
   const { achievements } = props;
   return (

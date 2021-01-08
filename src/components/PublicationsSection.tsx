@@ -1,9 +1,9 @@
 import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { PublicationHistory } from '@src/types';
+import { PublicationExperience } from '@src/types';
 import React from 'react';
 
 export const PublicationsSection: React.FC<{
-  publications: PublicationHistory[];
+  publications: PublicationExperience[];
 }> = (props) => {
   const { publications } = props;
 

@@ -1,6 +1,6 @@
-import { EducationalHistory } from '@src/types';
+import { EducationalExperience } from '@src/types';
 
-export const educations: EducationalHistory[] = [
+export const educations: EducationalExperience[] = [
   {
     degree: 'Undergraduate Student',
     department: 'Information Security',

@@ -1,6 +1,6 @@
-import { PublicationHistory } from '@src/types';
+import { PublicationExperience } from '@src/types';
 
-export const publications: PublicationHistory[] = [
+export const publications: PublicationExperience[] = [
   {
     title: 'DEFCON 27 OpenCTF 2019 参戦レポート',
     summaries: ['Published in HISYS Journal Vol.34.'],

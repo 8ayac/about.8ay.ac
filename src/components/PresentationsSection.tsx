@@ -1,9 +1,9 @@
-import { PresentationHistory } from '@src/types';
+import { PresentationExperience } from '@src/types';
 import Image from 'next/image';
 import React from 'react';
 
 export const PresentationsSection: React.FC<{
-  presentations: PresentationHistory[];
+  presentations: PresentationExperience[];
 }> = (props) => {
   const { presentations } = props;
 

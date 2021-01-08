@@ -1,6 +1,6 @@
-import { WorkHistory } from '@src/types';
+import { WorkExperience } from '@src/types';
 
-export const work: WorkHistory[] = [
+export const work: WorkExperience[] = [
   {
     belongsTo: 'Cybozu, Inc',
     position: 'Part-time Security Engineer',

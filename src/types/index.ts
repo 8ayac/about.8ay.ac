@@ -17,13 +17,13 @@ export type LinkWithDescription = {
   description?: string;
 };
 
-export type AchievementHistory = Experience & {
+export type AchievementExperience = Experience & {
   title: string;
   summaries: string[];
   references: LinkWithDescription[];
 };
 
-export type EducationalHistory = Experience & {
+export type EducationalExperience = Experience & {
   degree: string;
   department: string;
   faculty?: string;
@@ -31,31 +31,31 @@ export type EducationalHistory = Experience & {
   location: string;
 };
 
-export type OtherHistory = Experience & {
+export type OtherExperience = Experience & {
   title: string;
   summaries?: string[];
   references?: LinkWithDescription[];
 };
 
-export type PersonalHistory = Experience & {
+export type PersonalExperience = Experience & {
   title: string;
   summaries?: string[];
   references?: LinkWithDescription[];
 };
 
-export type PresentationHistory = Experience & {
+export type PresentationExperience = Experience & {
   title: string;
   url: string;
   imagePath: string;
 };
 
-export type PublicationHistory = Experience & {
+export type PublicationExperience = Experience & {
   title: string;
   summaries?: string[];
   references: LinkWithDescription[];
 };
 
-export type WorkHistory = Experience & {
+export type WorkExperience = Experience & {
   belongsTo: string;
   position: string;
   summaries: string[];

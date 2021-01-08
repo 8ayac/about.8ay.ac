@@ -1,6 +1,6 @@
-import { OtherHistory } from '@src/types';
+import { OtherExperience } from '@src/types';
 
-export const others: OtherHistory[] = [
+export const others: OtherExperience[] = [
   {
     title: 'Burp Suite Japan User Group',
     summaries: [

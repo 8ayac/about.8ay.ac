@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "run-s build:history build:social",
-    "build:history": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/history.ts",
+    "build": "run-s build:exp build:social",
+    "build:exp": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/experiences.ts",
     "build:social": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/social.ts",
     "dev": "next dev",
     "start": "next start",

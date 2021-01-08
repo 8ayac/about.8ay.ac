@@ -1,6 +1,6 @@
-import { PersonalHistory } from '@src/types';
+import { PersonalExperience } from '@src/types';
 
-export const personal: PersonalHistory[] = [
+export const personal: PersonalExperience[] = [
   {
     title: 'CVE-2018-0652',
     summaries: ['Found an Stored XSS on GROWI.'],

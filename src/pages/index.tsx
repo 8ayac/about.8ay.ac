@@ -1,4 +1,4 @@
-import history from '@.contents/history.json';
+import experiences from '@.contents/experiences.json';
 import { AchievementsSection } from '@src/components/AchievementsSection';
 import { EducationSection } from '@src/components/EducationSection';
 import { OtherActivitiesSection } from '@src/components/OtherActivitiesSection';
@@ -8,43 +8,43 @@ import { PublicationsSection } from '@src/components/PublicationsSection';
 import { SiteHeader } from '@src/components/SiteHeader';
 import { WorkExperiencesSection } from '@src/components/WorkExperiencesSection';
 import {
-  AchievementHistory,
-  EducationalHistory,
-  OtherHistory,
-  PersonalHistory,
-  PresentationHistory,
-  PublicationHistory,
-  WorkHistory,
+  AchievementExperience,
+  EducationalExperience,
+  OtherExperience,
+  PersonalExperience,
+  PresentationExperience,
+  PublicationExperience,
+  WorkExperience,
 } from '@src/types';
 import { NextPage } from 'next';
 import React from 'react';
 
 const Page: NextPage = () => {
-  const histories = history;
+  const histories = experiences;
 
   return (
     <>
       <SiteHeader />
       <WorkExperiencesSection
-        workExperiences={histories.work as WorkHistory[]}
+        workExperiences={histories.work as WorkExperience[]}
       />
       <EducationSection
-        educations={histories.educations as EducationalHistory[]}
+        educations={histories.educations as EducationalExperience[]}
       />
       <AchievementsSection
-        achievements={histories.achievement as AchievementHistory[]}
+        achievements={histories.achievement as AchievementExperience[]}
       />
       <OtherActivitiesSection
-        otherActivities={histories.others as OtherHistory[]}
+        otherActivities={histories.others as OtherExperience[]}
       />
       <PersonalActivitiesSection
-        personalActivities={histories.personal as PersonalHistory[]}
+        personalActivities={histories.personal as PersonalExperience[]}
       />
       <PublicationsSection
-        publications={histories.publications as PublicationHistory[]}
+        publications={histories.publications as PublicationExperience[]}
       />
       <PresentationsSection
-        presentations={histories.presentations as PresentationHistory[]}
+        presentations={histories.presentations as PresentationExperience[]}
       />
     </>
   );

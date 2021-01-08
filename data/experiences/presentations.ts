@@ -1,6 +1,6 @@
-import { PresentationHistory } from '@src/types';
+import { PresentationExperience } from '@src/types';
 
-export const presentations: PresentationHistory[] = [
+export const presentations: PresentationExperience[] = [
   {
     title: 'MBSD Cybersecurity Challenges 2017 最終審査会 発表スライド',
     url:

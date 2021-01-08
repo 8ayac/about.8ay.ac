@@ -1,6 +1,6 @@
-import { AchievementHistory } from '@src/types';
+import { AchievementExperience } from '@src/types';
 
-export const achievement: AchievementHistory[] = [
+export const achievement: AchievementExperience[] = [
   {
     title: 'MBSD Cybersecurity Challenges 2017',
     summaries: ['Won the 1st as team IPFactory'],

@@ -1,9 +1,9 @@
 import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { EducationalHistory } from '@src/types';
+import { EducationalExperience } from '@src/types';
 import React from 'react';
 
 export const EducationSection: React.FC<{
-  educations: EducationalHistory[];
+  educations: EducationalExperience[];
 }> = (props) => {
   const { educations } = props;
 
