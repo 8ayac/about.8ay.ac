@@ -63,7 +63,7 @@ export const personal: PersonalHistory[] = [
   },
   {
     title: 'CVE-2019-6785',
-    summaries: [''], // TODO: fill summaries
+    summaries: ['Found an input validation issue which could result in a DoS.'],
     references: [
       {
         url: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6785',
@@ -83,7 +83,7 @@ export const personal: PersonalHistory[] = [
   },
   {
     title: 'CVE-2019-9220',
-    summaries: [''], // TODO: fill summaries
+    summaries: ['Found an input validation issue which could result in a DoS.'],
     references: [
       {
         url: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9220',
