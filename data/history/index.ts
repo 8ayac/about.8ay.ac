@@ -1,4 +1,4 @@
-export * from './achivements';
+export * from './achievements';
 export * from './educations';
 export * from './others';
 export * from './personal';
