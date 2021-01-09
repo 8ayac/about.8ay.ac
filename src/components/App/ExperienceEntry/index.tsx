@@ -1,23 +1,24 @@
 import { Descriptions } from '@src/components/App/ExperienceEntry/Descriptions';
 import { TimeStamp } from '@src/components/App/ExperienceEntry/TimeStamp';
 import { Title } from '@src/components/App/ExperienceEntry/Title';
-import { ExperienceDate, LinkWithDescription } from '@src/types';
+import { Experience } from '@src/types';
+import { getExperienceTitle } from '@src/utils/helper';
 import React from 'react';
 
 export const ExperienceEntry: React.FC<{
-  title: string;
-  summaries?: string[];
-  references?: LinkWithDescription[];
-  time: ExperienceDate;
+  experience: Experience;
 }> = (props) => {
-  const { title, summaries, references, time } = props;
+  const { experience } = props;
 
   return (
     <div className="experience-entry">
       <div className="experience-body">
-        <Title title={title} />
-        <Descriptions summaries={summaries} references={references} />
-        <TimeStamp time={time} />
+        <Title title={getExperienceTitle(experience)} />
+        <Descriptions
+          summaries={experience.summaries}
+          references={experience.references}
+        />
+        <TimeStamp time={experience.date} />
       </div>
     </div>
   );
