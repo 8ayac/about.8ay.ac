@@ -50,9 +50,9 @@ const Page: NextPage = () => {
       withThumbnail: false,
     },
     {
-      type: 'personal',
-      title: 'Personal Activities',
-      data: experiences.personal,
+      type: 'cves',
+      title: 'CVEs',
+      data: experiences.cves,
       withThumbnail: false,
     },
     {

@@ -21,7 +21,7 @@ export interface Experience {
 
 export type AchievementExperience = Experience & { title: string };
 export type OtherExperience = Experience & { title: string };
-export type PersonalExperience = Experience & { title: string };
+export type CveExperience = Experience & { title: string };
 export type PublicationExperience = Experience & { title: string };
 
 export type EducationalExperience = Experience & {
