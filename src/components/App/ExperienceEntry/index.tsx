@@ -1,6 +1,6 @@
-import { Descriptions } from '@src/components/ExperienceEntry/Descriptions';
-import { TimeStamp } from '@src/components/ExperienceEntry/TimeStamp';
-import { Title } from '@src/components/ExperienceEntry/Title';
+import { Descriptions } from '@src/components/App/ExperienceEntry/Descriptions';
+import { TimeStamp } from '@src/components/App/ExperienceEntry/TimeStamp';
+import { Title } from '@src/components/App/ExperienceEntry/Title';
 import { ExperienceDate, LinkWithDescription } from '@src/types';
 import React from 'react';
 
