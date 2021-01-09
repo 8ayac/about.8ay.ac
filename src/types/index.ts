@@ -6,6 +6,11 @@ type Term = {
   endedAt?: DateString;
 };
 
+export type LinkWithDescription = {
+  url: string;
+  description?: string;
+};
+
 export type ExperienceDate = DateString | Term;
 
 export interface Experience {
@@ -14,14 +19,10 @@ export interface Experience {
   references?: LinkWithDescription[];
 }
 
-export type LinkWithDescription = {
-  url: string;
-  description?: string;
-};
-
-export type AchievementExperience = Experience & {
-  title: string;
-};
+export type AchievementExperience = Experience & { title: string };
+export type OtherExperience = Experience & { title: string };
+export type PersonalExperience = Experience & { title: string };
+export type PublicationExperience = Experience & { title: string };
 
 export type EducationalExperience = Experience & {
   degree: string;
@@ -31,22 +32,10 @@ export type EducationalExperience = Experience & {
   location: string;
 };
 
-export type OtherExperience = Experience & {
-  title: string;
-};
-
-export type PersonalExperience = Experience & {
-  title: string;
-};
-
 export type PresentationExperience = Experience & {
   title: string;
   url: string;
   imagePath: string;
-};
-
-export type PublicationExperience = Experience & {
-  title: string;
 };
 
 export type WorkExperience = Experience & {
