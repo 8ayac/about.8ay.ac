@@ -1,6 +1,7 @@
 import { ExperienceEntry } from '@src/components/App/ExperienceEntry';
 import { ExperienceField } from '@src/components/App/ExperienceField';
 import { EducationalExperience } from '@src/types';
+import { getExperienceTitle } from '@src/utils/helper';
 import React from 'react';
 
 export const EducationExperienceField: React.FC<{
@@ -13,15 +14,7 @@ export const EducationExperienceField: React.FC<{
         <ExperienceEntry
           // eslint-disable-next-line react/no-array-index-key
           key={idx}
-          title={[
-            exp.degree,
-            exp.department,
-            exp.faculty,
-            exp.school,
-            exp.location,
-          ]
-            .filter((v) => v)
-            .join(', ')}
+          title={getExperienceTitle(exp)}
           time={exp.date}
         />
       ))}

@@ -1,6 +1,7 @@
 import { ExperienceEntry } from '@src/components/App/ExperienceEntry';
 import { ExperienceField } from '@src/components/App/ExperienceField';
 import { WorkExperience } from '@src/types';
+import { getExperienceTitle } from '@src/utils/helper';
 import React from 'react';
 
 export const WorkExperienceField: React.FC<{
@@ -13,7 +14,7 @@ export const WorkExperienceField: React.FC<{
         <ExperienceEntry
           // eslint-disable-next-line react/no-array-index-key
           key={idx}
-          title={exp.belongsTo}
+          title={getExperienceTitle(exp)}
           summaries={exp.summaries}
           references={exp.references}
           time={exp.date}
