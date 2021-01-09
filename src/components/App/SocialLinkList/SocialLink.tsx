@@ -27,19 +27,13 @@ const getSocialIcon = (url: string): IconDefinition => {
   }
 };
 
-export const SocialLinks: React.FC<{ socials: SocialInformation[] }> = (
-  props
-) => {
-  const { socials } = props;
+export const SocialLink: React.FC<{ social: SocialInformation }> = (props) => {
+  const { social } = props;
+
   return (
-    <>
-      {socials.map((social: SocialInformation, idx: number) => (
-        // eslint-disable-next-line react/no-array-index-key
-        <a key={`social-${idx}`} href={social.url}>
-          <FontAwesomeIcon icon={getSocialIcon(social.url)} />
-          {social.description}
-        </a>
-      ))}
-    </>
+    <a href={social.url}>
+      <FontAwesomeIcon icon={getSocialIcon(social.url)} />
+      {social.description}
+    </a>
   );
 };
