@@ -3,13 +3,13 @@ import React from 'react';
 
 export const ExperienceField: React.FC<{
   name: string;
-  experienceEntries: React.ReactNode;
+  entries: React.ReactNode;
 }> = (props) => {
-  const { name, experienceEntries } = props;
+  const { name, entries } = props;
 
   return (
     <>
-      <ProfileField name={name} child={experienceEntries} />
+      <ProfileField name={name} child={entries} />
     </>
   );
 };
