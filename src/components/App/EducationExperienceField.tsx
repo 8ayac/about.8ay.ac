@@ -1,5 +1,5 @@
-import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { ExperienceField } from '@src/components/ExperienceField';
+import { ExperienceEntry } from '@src/components/App/ExperienceEntry';
+import { ExperienceField } from '@src/components/App/ExperienceField';
 import { EducationalExperience } from '@src/types';
 import React from 'react';
 

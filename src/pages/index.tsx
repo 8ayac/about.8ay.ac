@@ -1,13 +1,13 @@
 import experiences from '@.contents/experiences.json';
 
-import { AchievementExperienceField } from '@src/components/AchievementExperienceField';
-import { EducationExperienceField } from '@src/components/EducationExperienceField';
-import { OtherExperienceField } from '@src/components/OtherExperienceField';
-import { PersonalExperienceField } from '@src/components/PersonalExperienceField';
-import { PresentationsSection } from '@src/components/PresentationsSection';
-import { PublicationExperienceField } from '@src/components/PublicationExperienceField';
-import { SiteHeader } from '@src/components/SiteHeader';
-import { WorkExperienceField } from '@src/components/WorkExperienceField';
+import { AchievementExperienceField } from '@src/components/App/AchievementExperienceField';
+import { EducationExperienceField } from '@src/components/App/EducationExperienceField';
+import { OtherExperienceField } from '@src/components/App/OtherExperienceField';
+import { PersonalExperienceField } from '@src/components/App/PersonalExperienceField';
+import { PresentationsSection } from '@src/components/App/PresentationsSection';
+import { PublicationExperienceField } from '@src/components/App/PublicationExperienceField';
+import { SiteHeader } from '@src/components/App/SiteHeader';
+import { WorkExperienceField } from '@src/components/App/WorkExperienceField';
 import {
   AchievementExperience,
   EducationalExperience,
