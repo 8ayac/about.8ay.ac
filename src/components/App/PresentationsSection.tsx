@@ -1,5 +1,5 @@
+import { ImageLink } from '@src/components/shared/ImageLink';
 import { PresentationExperience } from '@src/types';
-import Image from 'next/image';
 import React from 'react';
 
 export const PresentationsSection: React.FC<{
@@ -16,18 +16,11 @@ export const PresentationsSection: React.FC<{
           <div key={`presentation-${idx}`} className="experience-entry">
             <div className="works-entry">
               <div className="works-body">
-                <a href={presentation.url}>
-                  <Image
-                    src={
-                      presentation.imagePath.startsWith('/')
-                        ? presentation.imagePath
-                        : `/${presentation.imagePath}`
-                    }
-                    alt={presentation.title}
-                    width="auto"
-                    height="auto"
-                  />
-                </a>
+                <ImageLink
+                  url={presentation.url}
+                  imagePath={presentation.imagePath}
+                  alt={presentation.title}
+                />
                 <p>{presentation.title}</p>
               </div>
             </div>
