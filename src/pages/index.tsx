@@ -8,15 +8,15 @@ import { NextPage } from 'next';
 import React from 'react';
 
 const getExperienceEntries = (
-  exp: (Experience & any)[],
+  experiences: (Experience & any)[],
   withThumbnail: boolean
 ) => {
-  return exp.map((v) => (
+  return experiences.map((exp) => (
     <>
       {!withThumbnail ? (
-        <ExperienceEntry experience={v} />
+        <ExperienceEntry experience={exp} />
       ) : (
-        <ExperienceEntryWithThumbnail experience={v} />
+        <ExperienceEntryWithThumbnail experience={exp} />
       )}
     </>
   ));
@@ -73,12 +73,12 @@ const Page: NextPage = () => {
     <>
       <SiteHeader />
 
-      {expWithMetaForRendering.map((v, idx) => (
+      {expWithMetaForRendering.map((exp, idx) => (
         // eslint-disable-next-line react/no-array-index-key
-        <section key={idx} className={v.type}>
+        <section key={idx} className={exp.type}>
           <ExperienceField
-            name={v.title}
-            entries={getExperienceEntries(v.data, v.withThumbnail)}
+            name={exp.title}
+            entries={getExperienceEntries(exp.data, exp.withThumbnail)}
           />
         </section>
       ))}
