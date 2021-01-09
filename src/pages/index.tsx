@@ -1,12 +1,13 @@
 import experiences from '@.contents/experiences.json';
-import { AchievementsSection } from '@src/components/AchievementsSection';
-import { EducationSection } from '@src/components/EducationSection';
-import { OtherActivitiesSection } from '@src/components/OtherActivitiesSection';
-import { PersonalActivitiesSection } from '@src/components/PersonalActivitiesSection';
+
+import { AchievementExperienceField } from '@src/components/AchievementExperienceField';
+import { EducationExperienceField } from '@src/components/EducationExperienceField';
+import { OtherExperienceField } from '@src/components/OtherExperienceField';
+import { PersonalExperienceField } from '@src/components/PersonalExperienceField';
 import { PresentationsSection } from '@src/components/PresentationsSection';
-import { PublicationsSection } from '@src/components/PublicationsSection';
+import { PublicationExperienceField } from '@src/components/PublicationExperienceField';
 import { SiteHeader } from '@src/components/SiteHeader';
-import { WorkExperiencesSection } from '@src/components/WorkExperiencesSection';
+import { WorkExperienceField } from '@src/components/WorkExperienceField';
 import {
   AchievementExperience,
   EducationalExperience,
@@ -25,22 +26,41 @@ const Page: NextPage = () => {
   return (
     <>
       <SiteHeader />
-      <WorkExperiencesSection workExperiences={exp.work as WorkExperience[]} />
-      <EducationSection
-        educations={exp.educations as EducationalExperience[]}
-      />
-      <AchievementsSection
-        achievements={exp.achievement as AchievementExperience[]}
-      />
-      <OtherActivitiesSection
-        otherActivities={exp.others as OtherExperience[]}
-      />
-      <PersonalActivitiesSection
-        personalActivities={exp.personal as PersonalExperience[]}
-      />
-      <PublicationsSection
-        publications={exp.publications as PublicationExperience[]}
-      />
+
+      <section className="work">
+        <WorkExperienceField workExperiences={exp.work as WorkExperience[]} />
+      </section>
+
+      <section className="education">
+        <EducationExperienceField
+          educations={exp.educations as EducationalExperience[]}
+        />
+      </section>
+
+      <section className="achievements">
+        <AchievementExperienceField
+          achievements={exp.achievement as AchievementExperience[]}
+        />
+      </section>
+
+      <section className="others">
+        <OtherExperienceField
+          otherActivities={exp.others as OtherExperience[]}
+        />
+      </section>
+
+      <section className="personal">
+        <PersonalExperienceField
+          personalActivities={exp.personal as PersonalExperience[]}
+        />
+      </section>
+
+      <section className="publications">
+        <PublicationExperienceField
+          publications={exp.publications as PublicationExperience[]}
+        />
+      </section>
+
       <PresentationsSection
         presentations={exp.presentations as PresentationExperience[]}
       />
