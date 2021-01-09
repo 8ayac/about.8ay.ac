@@ -1,3 +1,4 @@
+import { ProfileField } from '@src/components/shared/ProfileField';
 import React from 'react';
 
 export const ExperienceField: React.FC<{
@@ -8,8 +9,7 @@ export const ExperienceField: React.FC<{
 
   return (
     <>
-      <h2>{name}</h2>
-      <div className="experience-entries">{experienceEntries}</div>
+      <ProfileField name={name} child={experienceEntries} />
     </>
   );
 };
