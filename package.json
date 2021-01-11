@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "run-s build:exp build:social",
+    "build": "run-s build:exp build:social build:next",
     "build:exp": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/experiences.ts",
     "build:social": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/social.ts",
+    "build:next": "next build",
     "dev": "next dev",
     "start": "next start",
     "export": "next export",
