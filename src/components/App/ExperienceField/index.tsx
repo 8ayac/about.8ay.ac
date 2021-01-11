@@ -1,4 +1,4 @@
-import { ProfileField } from '@src/components/shared/ProfileField';
+import { ProfileField } from '@src/components/App/ProfileField';
 import React from 'react';
 
 export const ExperienceField: React.FC<{
