@@ -16,6 +16,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
+    "types": ["@emotion/react/types/css-prop"],
     "paths": {
       "@*": ["./*"]
     }
