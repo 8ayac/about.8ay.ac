@@ -21,7 +21,13 @@ export const getExperienceTitle = (exp: Experience & any): string => {
 
   // For educational experiences
   if ('school' in exp) {
-    return [exp.degree, exp.department, exp.faculty, exp.school, exp.location]
+    return [
+      exp.degree,
+      exp.department ? `Department of ${exp.department}` : null,
+      exp.faculty ? `Faculty of {exp.faculty}` : null,
+      exp.school,
+      exp.location,
+    ]
       .filter((v) => v)
       .join(', ');
   }
