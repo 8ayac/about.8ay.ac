@@ -10,7 +10,7 @@ export const cves: CveExperience[] = [
         description: 'cve.mitre.org',
       },
     ],
-    date: { startedAt: '2018-08-03' },
+    date: '2018-08-03',
   },
   {
     title: 'CVE-2018-0653',
@@ -21,7 +21,7 @@ export const cves: CveExperience[] = [
         description: 'cve.mitre.org',
       },
     ],
-    date: { startedAt: '2018-08-03' },
+    date: '2018-08-03',
   },
   {
     title: 'CVE-2018-17454',
@@ -37,7 +37,7 @@ export const cves: CveExperience[] = [
         description: 'Original report on HackerOne',
       },
     ],
-    date: { startedAt: '2018-10-01' },
+    date: '2018-10-01',
   },
   {
     title: 'CVE-2018-18640',
@@ -59,7 +59,7 @@ export const cves: CveExperience[] = [
         description: 'Original report on HackerOne',
       },
     ],
-    date: { startedAt: '2018-10-29' },
+    date: '2018-10-29',
   },
   {
     title: 'CVE-2019-6785',
@@ -79,7 +79,7 @@ export const cves: CveExperience[] = [
         description: 'Original report on HackerOne',
       },
     ],
-    date: { startedAt: '2019-01-31' },
+    date: '2019-01-31',
   },
   {
     title: 'CVE-2019-9220',
@@ -99,7 +99,7 @@ export const cves: CveExperience[] = [
         description: 'Original report on HackerOne',
       },
     ],
-    date: { startedAt: '2019-03-04' },
+    date: '2019-03-04',
   },
   {
     title: 'CVE-2019-13010',
@@ -119,6 +119,6 @@ export const cves: CveExperience[] = [
         description: 'Original report on HackerOne',
       },
     ],
-    date: { startedAt: '2019-07-03' },
+    date: '2019-07-03',
   },
 ];
