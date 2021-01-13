@@ -7,7 +7,7 @@ export const others: OtherExperience[] = [
       'A user group of a local proxy tool "Burp Suite.',
       'Organizing some events and supporting other management tasks.',
     ],
-    date: '2019-01-01',
+    date: { startedAt: '2019-01-01' },
   },
   {
     title: 'ISCCTF 2020',
