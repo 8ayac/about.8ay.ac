@@ -6,6 +6,7 @@ export const educations: EducationalExperience[] = [
     department: 'Information Security',
     school: 'Information Science College',
     location: 'Kanagawa',
+    summaries: ['Currently studying as a student.'],
     date: { startedAt: '2017-04-01' },
   },
 ];
