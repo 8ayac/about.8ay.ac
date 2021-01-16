@@ -1,15 +1,18 @@
 import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
 
+const baseFontSize = 1.66; // rem
+
 export const entryWrapper = css`
   margin-bottom: 6rem;
 `;
 
 export const entryBody = css`
-  font-size: 1.66rem;
+  font-size: ${baseFontSize}rem;
 `;
 
 export const entryTitle = css`
+  font-size: ${baseFontSize * 1.1}rem;
   padding-bottom: 0.3rem;
   font-weight: bold;
   border-bottom: 1px dotted ${theme.color.primaryLight};
