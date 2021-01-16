@@ -14,8 +14,8 @@
     "lint:fix": "run-s lint:ts:fix lint:css:fix",
     "lint:ts": "eslint src/ builder/ data/ --ext .ts,.tsx",
     "lint:ts:fix": "eslint src/ builder/ data/ --ext .ts,.tsx --fix",
-    "lint:css": "stylelint --syntax css-in-js src/styles/**/*.{tsx,css,scss}",
-    "lint:css:fix": "stylelint --syntax css-in-js src/styles/**/*.{tsx,css,scss} --fix"
+    "lint:css": "stylelint --syntax css-in-js src/**/*.{tsx,css,scss}",
+    "lint:css:fix": "stylelint --syntax css-in-js src/**/*.{tsx,css,scss} --fix"
   },
   "dependencies": {
     "@emotion/core": "^11.0.0",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.1.2",
+    "@emotion/babel-preset-css-prop": "^11.0.0",
     "@types/fs-extra": "^9.0.2",
     "@types/node": "^14.11.10",
     "@types/react-dom": "^16.9.8",

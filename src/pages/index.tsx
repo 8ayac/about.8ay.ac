@@ -79,6 +79,7 @@ const Page: NextPage = () => {
           <ExperienceField
             name={exp.title}
             entries={getExperienceEntries(exp.data, exp.withThumbnail)}
+            withThumbnail={exp.withThumbnail}
           />
         </section>
       ))}

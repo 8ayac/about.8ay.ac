@@ -9,6 +9,10 @@ import {
   faLink,
 } from '@node_modules/@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@node_modules/@fortawesome/react-fontawesome';
+import {
+  socialIcon,
+  socialLink,
+} from '@src/components/App/SocialLinkList/style.tsx';
 import { SocialInformation } from '@src/types';
 import React from 'react';
 
@@ -31,8 +35,8 @@ export const SocialLink: React.FC<{ social: SocialInformation }> = (props) => {
   const { social } = props;
 
   return (
-    <a href={social.url}>
-      <FontAwesomeIcon icon={getSocialIcon(social.url)} />
+    <a css={socialLink} href={social.url}>
+      <FontAwesomeIcon css={socialIcon} icon={getSocialIcon(social.url)} />
       {social.description}
     </a>
   );

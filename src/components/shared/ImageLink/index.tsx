@@ -1,3 +1,4 @@
+import { thumbnail } from '@src/components/shared/ImageLink/style';
 import React from 'react';
 
 export const ImageLink: React.FC<{
@@ -9,9 +10,10 @@ export const ImageLink: React.FC<{
   return (
     <a href={url}>
       <img
+        css={thumbnail}
         src={imagePath.startsWith('/') ? imagePath : `/${imagePath}`}
         alt={alt}
-        width="300px"
+        width="95%"
       />
     </a>
   );

@@ -1,6 +1,10 @@
 import { Descriptions } from '@src/components/App/ExperienceEntry/Descriptions';
 import { TimeStamp } from '@src/components/App/ExperienceEntry/TimeStamp';
 import { Title } from '@src/components/App/ExperienceEntry/Title';
+import {
+  entryBody,
+  entryWrapper,
+} from '@src/components/App/ExperienceEntry/style';
 import { Experience } from '@src/types';
 import { getExperienceTitle } from '@src/utils/helper';
 import React from 'react';
@@ -11,14 +15,14 @@ export const ExperienceEntry: React.FC<{
   const { experience } = props;
 
   return (
-    <div className="experience-entry">
-      <div className="experience-body">
+    <div css={entryWrapper}>
+      <div css={entryBody}>
         <Title title={getExperienceTitle(experience)} />
+        <TimeStamp time={experience.date} />
         <Descriptions
           summaries={experience.summaries}
           references={experience.references}
         />
-        <TimeStamp time={experience.date} />
       </div>
     </div>
   );

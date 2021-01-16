@@ -1,4 +1,9 @@
 import { Description } from '@src/components/App/ExperienceEntryWithThumbnail/Description';
+import { TimeStamp } from '@src/components/App/ExperienceEntryWithThumbnail/TimeStamp';
+import {
+  entryBody,
+  entryWrapper,
+} from '@src/components/App/ExperienceEntryWithThumbnail/style';
 import { ImageLink } from '@src/components/shared/ImageLink';
 import { Experience } from '@src/types';
 import React from 'react';
@@ -10,8 +15,9 @@ export const ExperienceEntryWithThumbnail: React.FC<{
   const { experience } = props;
 
   return (
-    <div className="experience-entry">
-      <div className="experience-body">
+    <div css={entryWrapper}>
+      <div css={entryBody}>
+        <TimeStamp time={experience.date} />
         <ImageLink
           url={experience.url}
           imagePath={experience.imagePath}
