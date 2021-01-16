@@ -5,8 +5,9 @@ import React from 'react';
 
 export const TimeStamp: React.FC<{
   time: ExperienceDate;
+  floatRight?: boolean;
 }> = (props) => {
-  const { time } = props;
+  const { time, floatRight } = props;
 
-  return <i css={timeStamp}>{experienceDateToString(time)}</i>;
+  return <i css={timeStamp(floatRight)}>{experienceDateToString(time)}</i>;
 };

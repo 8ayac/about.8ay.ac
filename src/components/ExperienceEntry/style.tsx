@@ -3,25 +3,36 @@ import { theme } from '@src/constants/theme';
 
 const baseFontSize = 1.66; // rem
 
-export const entryWrapper = css`
-  margin-bottom: 6rem;
+export const entryWrapper = (withThumbnail: boolean) => css`
+  margin-bottom: ${withThumbnail ? 1 : 6}rem;
 `;
 
-export const entryBody = css`
+export const entryBody = (withThumbnail: boolean) => css`
   font-size: ${baseFontSize}rem;
+  ${withThumbnail &&
+  css`
+    text-align: center;
+  `}
 `;
 
 export const entryTitle = css`
-  font-size: ${baseFontSize * 1.1}rem;
   padding-bottom: 0.3rem;
+  font-size: ${baseFontSize * 1.1}rem;
   font-weight: bold;
   border-bottom: 1px dotted ${theme.color.primaryLight};
 `;
 
-export const timeStamp = css`
-  float: right;
+export const timeStamp = (floatRight?: boolean) => css`
+  ${floatRight &&
+  css`
+    float: right;
+  `}
   padding-top: 0.3rem;
   font-size: 1.25rem;
+`;
+
+export const description = css`
+  padding: 0 1rem;
 `;
 
 export const descriptionList = css`

@@ -5,7 +5,7 @@ import {
 import { LinkWithDescription } from '@src/types';
 import React from 'react';
 
-export const Descriptions: React.FC<{
+export const BulletedDescription: React.FC<{
   summaries?: string[];
   references?: LinkWithDescription[];
 }> = (props) => {

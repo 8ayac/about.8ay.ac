@@ -1,21 +1,15 @@
 import allExperiences from '@.contents/experiences.json';
 import { ExperienceEntry } from '@src/components/ExperienceEntry';
-import { ExperienceEntryWithThumbnail } from '@src/components/ExperienceEntryWithThumbnail';
 import { ExperienceField } from '@src/components/ExperienceField';
-import { Experience } from '@src/types';
+import { Experience, ExperienceWithImage } from '@src/types';
 import React from 'react';
 
 const getExperienceEntries = (
-  experiences: (Experience & any)[],
-  withThumbnail: boolean
+  experiences: (Experience | ExperienceWithImage)[]
 ) => {
   return experiences.map((exp) => (
     <>
-      {!withThumbnail ? (
-        <ExperienceEntry experience={exp} />
-      ) : (
-        <ExperienceEntryWithThumbnail experience={exp} />
-      )}
+      <ExperienceEntry experience={exp} />
     </>
   ));
 };
@@ -74,7 +68,7 @@ export const ExperienceList: React.FC = () => {
         <section key={idx} className={exp.type}>
           <ExperienceField
             name={exp.title}
-            entries={getExperienceEntries(exp.data, exp.withThumbnail)}
+            entries={getExperienceEntries(exp.data)}
             withThumbnail={exp.withThumbnail}
           />
         </section>

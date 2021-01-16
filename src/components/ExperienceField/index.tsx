@@ -1,5 +1,4 @@
 import { ProfileField } from '@src/components/ProfileField';
-import { ProfileFieldWithThumbnail } from '@src/components/ProfileFieldWithThumbnail';
 import React from 'react';
 
 export const ExperienceField: React.FC<{
@@ -11,11 +10,7 @@ export const ExperienceField: React.FC<{
 
   return (
     <>
-      {withThumbnail ? (
-        <ProfileFieldWithThumbnail name={name} child={entries} />
-      ) : (
-        <ProfileField name={name} child={entries} />
-      )}
+      <ProfileField name={name} child={entries} withThumbnail={withThumbnail} />
     </>
   );
 };

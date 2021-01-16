@@ -18,6 +18,16 @@ export interface Experience {
   summaries?: string[];
   references?: LinkWithDescription[];
 }
+export interface ExperienceWithImage extends Experience {
+  title: string;
+  url: string;
+  imagePath: string;
+}
+export function implementsExperienceWithImage(
+  arg: any
+): arg is ExperienceWithImage {
+  return ['title', 'url', 'imagePath'].every((key) => key in arg);
+}
 
 export type AchievementExperience = Experience & { title: string };
 export type OtherExperience = Experience & { title: string };
@@ -32,11 +42,7 @@ export type EducationalExperience = Experience & {
   location: string;
 };
 
-export type PresentationExperience = Experience & {
-  title: string;
-  url: string;
-  imagePath: string;
-};
+export type PresentationExperience = ExperienceWithImage;
 
 export type WorkExperience = Experience & {
   belongsTo: string;
