@@ -14,5 +14,4 @@ export const timeStamp = css`
 
 export const description = css`
   padding: 0 1rem;
-  margin: 0;
 `;

@@ -53,6 +53,12 @@ const gAStyle = css`
   }
 `;
 
+const gPStyle = css`
+  p {
+    margin: 0;
+  }
+`;
+
 const gLiStyle = css`
   li {
     margin-bottom: 0.5rem;
@@ -71,6 +77,7 @@ export const globalStyle = css`
   ${gBodyStyle}
   ${gHeadingStyle}
   ${gAStyle}
+  ${gPStyle}
   ${gLiStyle}
   ${gSectionStyle}
 `;
