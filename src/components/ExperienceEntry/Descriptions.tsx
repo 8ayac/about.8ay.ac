@@ -1,7 +1,7 @@
 import {
   descriptionItem,
   descriptionList,
-} from '@src/components/App/ExperienceEntry/style';
+} from '@src/components/ExperienceEntry/style';
 import { LinkWithDescription } from '@src/types';
 import React from 'react';
 

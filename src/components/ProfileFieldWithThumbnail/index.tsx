@@ -2,10 +2,10 @@ import {
   fieldBody,
   fieldName,
   wrapper,
-} from '@src/components/App/ProfileField/style';
+} from '@src/components/ProfileFieldWithThumbnail/style';
 import React from 'react';
 
-export const ProfileField: React.FC<{
+export const ProfileFieldWithThumbnail: React.FC<{
   name: string;
   child: React.ReactNode;
 }> = (props) => {

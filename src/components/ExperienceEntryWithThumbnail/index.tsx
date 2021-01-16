@@ -1,10 +1,10 @@
-import { Description } from '@src/components/App/ExperienceEntryWithThumbnail/Description';
-import { TimeStamp } from '@src/components/App/ExperienceEntryWithThumbnail/TimeStamp';
+import { Description } from '@src/components/ExperienceEntryWithThumbnail/Description';
+import { TimeStamp } from '@src/components/ExperienceEntryWithThumbnail/TimeStamp';
 import {
   entryBody,
   entryWrapper,
-} from '@src/components/App/ExperienceEntryWithThumbnail/style';
-import { ImageLink } from '@src/components/shared/ImageLink';
+} from '@src/components/ExperienceEntryWithThumbnail/style';
+import { ImageLink } from '@src/components/ImageLink';
 import { Experience } from '@src/types';
 import React from 'react';
 

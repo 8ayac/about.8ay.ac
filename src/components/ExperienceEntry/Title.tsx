@@ -1,4 +1,4 @@
-import { entryTitle } from '@src/components/App/ExperienceEntry/style';
+import { entryTitle } from '@src/components/ExperienceEntry/style';
 import React from 'react';
 
 export const Title: React.FC<{ title: string }> = (props) => {

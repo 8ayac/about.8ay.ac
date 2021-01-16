@@ -1,4 +1,4 @@
-import { thumbnail } from '@src/components/shared/ImageLink/style';
+import { thumbnail } from '@src/components/ImageLink/style';
 import React from 'react';
 
 export const ImageLink: React.FC<{

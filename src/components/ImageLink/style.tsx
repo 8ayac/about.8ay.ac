@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { theme } from '@src/pages/_app';
+import { theme } from '@src/constants/theme';
 
 export const thumbnail = css`
   margin: 0.5rem 0;

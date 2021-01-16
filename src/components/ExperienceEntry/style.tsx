@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { theme } from '@src/pages/_app';
+import { theme } from '@src/constants/theme';
 
 export const entryWrapper = css`
   margin-bottom: 6rem;

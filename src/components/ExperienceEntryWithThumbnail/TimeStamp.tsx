@@ -1,4 +1,4 @@
-import { timeStamp } from '@src/components/App/ExperienceEntry/style';
+import { timeStamp } from '@src/components/ExperienceEntryWithThumbnail/style';
 import { ExperienceDate } from '@src/types';
 import { experienceDateToString } from '@src/utils/helper';
 import React from 'react';

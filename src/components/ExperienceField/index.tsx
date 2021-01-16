@@ -1,5 +1,5 @@
-import { ProfileField } from '@src/components/App/ProfileField';
-import { ProfileFieldWithThumbnail } from '@src/components/App/ProfileFieldWithThumbnail';
+import { ProfileField } from '@src/components/ProfileField';
+import { ProfileFieldWithThumbnail } from '@src/components/ProfileFieldWithThumbnail';
 import React from 'react';
 
 export const ExperienceField: React.FC<{

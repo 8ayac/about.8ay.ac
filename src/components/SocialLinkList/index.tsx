@@ -1,5 +1,5 @@
-import { SocialLink } from '@src/components/App/SocialLinkList/SocialLink';
-import { linkListWrapper } from '@src/components/App/SocialLinkList/style.tsx';
+import { SocialLink } from '@src/components/SocialLinkList/SocialLink';
+import { linkListWrapper } from '@src/components/SocialLinkList/style.tsx';
 import { SocialInformation } from '@src/types';
 import React from 'react';
 

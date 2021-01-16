@@ -1,8 +1,8 @@
 import socials from '@.contents/social.json';
 import { config } from '@site.config';
-import { siteTitle, header } from '@src/components/App/SiteHeader/style';
-import { SocialLinkList } from '@src/components/App/SocialLinkList';
+import { SocialLinkList } from '@src/components/SocialLinkList';
 import { SocialInformation } from '@src/types';
+import { header, siteTitle } from '@src/widgets/SiteHeader/style';
 import React from 'react';
 
 export const SiteHeader: React.FC = () => (
