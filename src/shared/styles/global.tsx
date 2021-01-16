@@ -1,5 +1,8 @@
+import { config, dom } from '@fortawesome/fontawesome-svg-core';
 import { css } from '@node_modules/@emotion/react';
 import { theme } from '@src/constants/theme';
+
+config.autoAddCss = false;
 
 const gHtmlStyle = css`
   html {
@@ -63,6 +66,7 @@ const gSectionStyle = css`
 `;
 
 export const globalStyle = css`
+  ${dom.css()}
   ${gHtmlStyle}
   ${gBodyStyle}
   ${gHeadingStyle}
