@@ -3,6 +3,8 @@ import { colors } from '@src/constants/colors';
 export const theme = {
   color: {
     blue: colors.blue,
+    green: colors.green,
+    yellow: colors.yellow,
 
     primary: colors.blue.base,
     primaryLight: colors.blue.light,

@@ -1,5 +1,6 @@
 import { config } from '@site.config';
 import { OGPSetting } from '@src/components/OGPSetting';
+import { theme } from '@src/constants/theme';
 import Document, {
   Html,
   Head,
@@ -24,6 +25,7 @@ class MyDocument extends Document {
         <meta name="author" content="Yoshinori Hayashi" />
 
         <meta charSet="utf-8" />
+        <meta name="theme-color" content={theme.color.yellow.base} />
         <link
           rel="icon shortcut"
           type="image/png"
