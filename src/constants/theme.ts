@@ -12,8 +12,8 @@ export const theme = {
 
     text: {
       primary: 'hsla(0, 0%, 15%)',
-      primaryLight: 'hsla(0, 0%, 75%)',
-      secondary: colors.blue.dark,
+      primaryLight: 'hsla(0, 0%, 40%)',
+      secondary: colors.blue.dark2,
       accent: colors.green.dark,
     },
   },
