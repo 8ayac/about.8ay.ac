@@ -11,7 +11,7 @@ export const linkListWrapper = css`
 `;
 
 export const socialLink = css`
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
   margin-right: 2.8rem;
   font-size: 1.8rem;
   text-decoration: none;
