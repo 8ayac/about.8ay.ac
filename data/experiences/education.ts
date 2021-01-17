@@ -1,6 +1,6 @@
 import { EducationalExperience } from '@src/types';
 
-export const educations: EducationalExperience[] = [
+export const education: EducationalExperience[] = [
   {
     degree: 'Undergraduate Student',
     department: 'Information Security',

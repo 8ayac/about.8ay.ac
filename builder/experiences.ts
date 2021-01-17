@@ -1,6 +1,6 @@
 import {
   achievement as achievementExperience,
-  educations as educationExperience,
+  education as educationExperience,
   others as otherExperience,
   cves as cvesExperience,
   presentations as presentationExperience,
@@ -12,7 +12,7 @@ import fs from 'fs-extra';
 
 const allExperiences = {
   achievement: achievementExperience,
-  educations: educationExperience,
+  education: educationExperience,
   others: otherExperience,
   cves: cvesExperience,
   presentations: presentationExperience,

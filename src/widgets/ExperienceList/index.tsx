@@ -26,7 +26,7 @@ export const ExperienceList: React.FC = () => {
     {
       type: 'education',
       title: 'Education',
-      data: experiences.educations,
+      data: experiences.education,
       withThumbnail: false,
     },
     {
