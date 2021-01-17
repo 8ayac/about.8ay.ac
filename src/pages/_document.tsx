@@ -1,4 +1,5 @@
 import { config } from '@site.config';
+import { GATag } from '@src/components/GATag';
 import { OGPSetting } from '@src/components/OGPSetting';
 import { theme } from '@src/constants/theme';
 import Document, {
@@ -19,6 +20,7 @@ class MyDocument extends Document {
   render = (): JSX.Element => (
     <Html>
       <Head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
+        <GATag />
         <OGPSetting />
 
         <meta name="description" content="About 8ayac" />
