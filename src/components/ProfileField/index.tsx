@@ -15,7 +15,9 @@ export const ProfileField: React.FC<{
   return (
     <>
       <div css={wrapper}>
-        <h2 css={fieldName}>{name}</h2>
+        <h2 css={fieldName} id={name}>
+          {name}
+        </h2>
         <div css={fieldBody(withThumbnail ?? false)}>{child}</div>
       </div>
     </>
