@@ -1,5 +1,6 @@
 import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
+import { mq } from '@src/shared/styles/MediaQuery';
 
 const baseFontSize = 1.66; // rem
 
@@ -39,6 +40,10 @@ export const descriptionList = css`
   padding-left: 0;
   margin-top: 2.5rem;
   list-style: none;
+
+  ${mq('sm')} {
+    margin-top: 3rem;
+  }
 `;
 
 export const descriptionItem = css`

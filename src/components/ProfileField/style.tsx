@@ -1,5 +1,6 @@
 import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
+import { mq } from '@src/shared/styles/MediaQuery';
 
 export const wrapper = css`
   font-size: 2rem;
@@ -11,14 +12,18 @@ export const fieldName = css`
 `;
 
 export const fieldBody = (withThumbnail: boolean) => css`
-  font-size: 1.5rem;
   ${withThumbnail &&
   css`
     display: grid;
-
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    row-gap: 3rem;
-    column-gap: 1.5rem;
-    font-size: 1.5rem;
   `}
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  row-gap: 3rem;
+  column-gap: 1.5rem;
+
+  font-size: 1.5rem;
+
+  ${mq('sm')} {
+    row-gap: 1.5rem;
+  }
 `;
