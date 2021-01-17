@@ -23,7 +23,7 @@ class MyDocument extends Document {
         <GATag />
         <OGPSetting />
 
-        <meta name="description" content="About 8ayac" />
+        <meta name="description" content="About 8ayac(Yoshinori Hayashi)" />
         <meta name="author" content="Yoshinori Hayashi" />
 
         <meta charSet="utf-8" />

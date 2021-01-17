@@ -13,7 +13,7 @@ export const OGPSetting: React.FC = () => {
       />
 
       <meta property="og:site_name" content="about.8ay.ac" />
-      <meta property="og:description" content="About 8ayac" />
+      <meta property="og:description" content="About 8ayac(Yoshinori Hayashi)" />
 
       <meta property="profile:first_name" content="Yoshinori" />
       <meta property="profile:last_name" content="Hayashi" />
