@@ -65,7 +65,7 @@ export const ExperienceList: React.FC = () => {
     <>
       {expWithMetaForRendering.map((exp, idx) => (
         // eslint-disable-next-line react/no-array-index-key
-        <section key={idx} className={exp.type}>
+        <section key={idx}>
           <ExperienceField
             name={exp.title}
             entries={getExperienceEntries(exp.data)}
