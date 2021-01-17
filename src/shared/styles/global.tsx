@@ -1,6 +1,7 @@
 import { config, dom } from '@fortawesome/fontawesome-svg-core';
 import { css } from '@node_modules/@emotion/react';
 import { theme } from '@src/constants/theme';
+import { mq } from '@src/shared/styles/MediaQuery';
 
 config.autoAddCss = false;
 
@@ -68,6 +69,10 @@ const gLiStyle = css`
 const gSectionStyle = css`
   section {
     margin: 8rem auto;
+
+    ${mq('sm')} {
+      margin: 4rem auto;
+    }
   }
 `;
 
