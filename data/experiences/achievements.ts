@@ -23,9 +23,7 @@ export const achievement: AchievementExperience[] = [
   },
   {
     title: '2018 GitLab BugBounty Program',
-    summaries: [
-      'In 2018, won the 7th in GitLab BugBounty Program Hall of Fame.',
-    ],
+    summaries: ['Won the 7th in GitLab BugBounty Program Hall of Fame.'],
     references: [{ url: 'https://hackerone.com/gitlab/thanks/2018?type=team' }],
     date: '2019-01-01',
   },
@@ -45,9 +43,7 @@ export const achievement: AchievementExperience[] = [
   },
   {
     title: '2019 GitLab BugBounty Program',
-    summaries: [
-      'In 2019, won the 6th in GitLab BugBounty Program Hall of Fame.',
-    ],
+    summaries: ['Won the 6th in GitLab BugBounty Program Hall of Fame.'],
     references: [{ url: 'https://hackerone.com/gitlab/thanks/2019?type=team' }],
     date: '2020-01-01',
   },
