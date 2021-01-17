@@ -18,7 +18,7 @@ class MyDocument extends Document {
   }
 
   render = (): JSX.Element => (
-    <Html>
+    <Html lang="en">
       <Head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
         <GATag />
         <OGPSetting />
