@@ -1,7 +1,7 @@
 import { config, dom } from '@fortawesome/fontawesome-svg-core';
 import { css } from '@node_modules/@emotion/react';
 import { theme } from '@src/constants/theme';
-import { mq } from '@src/shared/styles/MediaQuery';
+import { mq } from '@src/shared/styles/mediaQuery';
 
 config.autoAddCss = false;
 

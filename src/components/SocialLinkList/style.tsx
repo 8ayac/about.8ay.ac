@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { mq } from '@src/shared/styles/MediaQuery';
+import { mq } from '@src/shared/styles/mediaQuery';
 
 export const linkListWrapper = css`
   display: flex;

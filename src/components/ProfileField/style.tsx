@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
-import { mq } from '@src/shared/styles/MediaQuery';
+import { mq } from '@src/shared/styles/mediaQuery';
 
 export const wrapper = css`
   font-size: 2rem;
