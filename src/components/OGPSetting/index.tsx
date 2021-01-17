@@ -9,7 +9,7 @@ export const OGPSetting: React.FC = () => {
       <meta property="og:url" content="https://about.8ay.ac" />
       <meta
         property="og:image"
-        content={`${config.siteRoot}/img/favicon.ico`}
+        content={`${config.siteRoot}/img/favicon.png`}
       />
 
       <meta property="og:site_name" content="about.8ay.ac" />

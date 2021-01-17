@@ -31,7 +31,7 @@ class MyDocument extends Document {
         <link
           rel="icon shortcut"
           type="image/png"
-          href={`${config.siteRoot}/img/favicon.ico`}
+          href={`${config.siteRoot}/img/favicon.png`}
         />
       </Head>
       <body>
