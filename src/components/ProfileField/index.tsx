@@ -15,7 +15,7 @@ export const ProfileField: React.FC<{
   return (
     <>
       <div css={wrapper}>
-        <h2 css={fieldName} id={name}>
+        <h2 css={fieldName} id={name.split(/\s+/)[0].toLowerCase()}>
           {name}
         </h2>
         <div css={fieldBody(withThumbnail ?? false)}>{child}</div>
