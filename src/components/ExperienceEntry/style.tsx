@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
 import { mq } from '@src/shared/styles/MediaQuery';
 
-const baseFontSize = 1.66; // rem
+const baseFontSize = 1.8; // rem
 
 export const entryWrapper = (withThumbnail: boolean) => css`
   margin-bottom: ${withThumbnail ? 1 : 6}rem;
