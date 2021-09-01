@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@node_modules/@fortawesome/react-fontawesome';
 import {
   socialIcon,
   socialLink,
-} from '@src/components/SocialLinkList/style.tsx';
+} from '@src/components/SocialLinkList/style';
 import { SocialInformation } from '@src/types';
 import React from 'react';
 
