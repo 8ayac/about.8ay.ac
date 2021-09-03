@@ -1,18 +1,14 @@
 {
   "presets": [
-    "next/babel",
-    "@emotion/babel-preset-css-prop"
-  ],
-  "plugins": [
     [
-      "module-resolver",
+      "next/babel",
       {
-        "root": ["."],
-        "alias": {
-          "@": "./"
+        "preset-react": {
+          "runtime": "automatic",
+          "importSource": "@emotion/react"
         }
       }
-    ],
-    "@emotion"
-  ]
+    ]
+  ],
+  "plugins": ["@emotion/babel-plugin"]
 }

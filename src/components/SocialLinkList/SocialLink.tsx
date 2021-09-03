@@ -3,12 +3,12 @@ import {
   faLinkedin,
   faTwitter,
   IconDefinition,
-} from '@node_modules/@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-brands-svg-icons';
 import {
   faBlog,
   faLink,
-} from '@node_modules/@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@node_modules/@fortawesome/react-fontawesome';
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   socialIcon,
   socialLink,

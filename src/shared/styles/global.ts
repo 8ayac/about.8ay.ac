@@ -1,5 +1,5 @@
 import { config, dom } from '@fortawesome/fontawesome-svg-core';
-import { css } from '@node_modules/@emotion/react';
+import { css } from '@emotion/react';
 import { theme } from '@src/constants/theme';
 import { mq } from '@src/shared/styles/mediaQuery';
 

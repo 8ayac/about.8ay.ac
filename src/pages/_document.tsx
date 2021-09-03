@@ -2,6 +2,7 @@ import { config } from '@site.config';
 import { GATag } from '@src/components/GATag';
 import { OGPSetting } from '@src/components/OGPSetting';
 import { theme } from '@src/constants/theme';
+// eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, {
   Html,
   Head,

@@ -1,4 +1,4 @@
-import moment from '@node_modules/moment';
+import moment from 'moment';
 import { DateString, Experience, ExperienceDate } from '@src/types';
 
 export const experienceDateToString = (expDate: ExperienceDate): string => {
