@@ -23,4 +23,15 @@ export const publications: PublicationExperience[] = [
     ],
     date: '2019-10-28',
   },
+  {
+    title: 'GraphQL診断ガイドライン',
+    summaries: [
+      'Guidelines for vulnerability testing on GraphQL, written by some members of ISOG-J WG1.',
+    ],
+    date: '2021-12-24',
+    references: [
+      { url: 'https://github.com/WebAppPentestGuidelines/graphQLGuideLine' },
+      { url: 'https://isog-j.org/activities/#:~:text=WG1', description: 'About ISOG-J WG1'}
+    ]
+  }
 ];
