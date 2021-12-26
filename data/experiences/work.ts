@@ -22,4 +22,21 @@ export const work: WorkExperience[] = [
     },
     summaries: ['Did vulnerability testing of web applications'],
   },
+  {
+    belongsTo: 'LINE Corporation',
+    position: 'Application Security Engineer',
+    date: {
+      startedAt: '2021-04-01'
+    },
+    summaries: [
+      'Working as a member of the Application Security Team',
+      'Ensuring the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.'
+    ],
+    references: [
+      {
+        url: 'https://line-careers.website.line-apps.com/jobs/168',
+        description: 'Job description'
+      }
+    ]
+  }
 ];
