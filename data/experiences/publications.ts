@@ -33,5 +33,16 @@ export const publications: PublicationExperience[] = [
       { url: 'https://github.com/WebAppPentestGuidelines/graphQLGuideLine' },
       { url: 'https://isog-j.org/activities/#:~:text=WG1', description: 'About ISOG-J WG1'}
     ]
+  },
+  {
+    title: 'Webアプリケーション脆弱性診断ガイドライン 第1.2版',
+    summaries: [
+      'Guidelines for web application vulnerability testing, written by some members of ISOG-J WG1.',
+    ],
+    date: '2022-03-01',
+    references: [
+      { url: 'https://github.com/WebAppPentestGuidelines/WebAppPentestGuidelines' },
+      { url: 'https://isog-j.org/activities/#:~:text=WG1', description: 'About ISOG-J WG1'}
+    ]
   }
 ];
