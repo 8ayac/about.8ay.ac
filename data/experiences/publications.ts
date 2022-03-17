@@ -26,7 +26,8 @@ export const publications: PublicationExperience[] = [
   {
     title: 'GraphQL診断ガイドライン',
     summaries: [
-      'Guidelines for vulnerability testing on GraphQL, written by some members of ISOG-J WG1.',
+      'Guidelines for vulnerability testing on GraphQL',
+      'Co-authored with the ISOG-J WG1 members',
     ],
     date: '2021-12-24',
     references: [
@@ -37,7 +38,8 @@ export const publications: PublicationExperience[] = [
   {
     title: 'Webアプリケーション脆弱性診断ガイドライン 第1.2版',
     summaries: [
-      'Guidelines for web application vulnerability testing, written by some members of ISOG-J WG1.',
+      'Guidelines for web application vulnerability testing',
+      'Co-authored with the ISOG-J WG1 members'
     ],
     date: '2022-03-01',
     references: [
