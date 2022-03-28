@@ -20,4 +20,23 @@ export const others: OtherExperience[] = [
     ],
     date: '2020-10-24',
   },
+  {
+    title: 'LINE CTF 2022',
+    summaries: [
+        'Organized LINE CTF 2022 as a member of LINE AST(Application Security Team).',
+        'Made a web challenge. (Haribote Secure Note)'
+    ],
+    references: [
+      {
+        url: 'https://linecorp.com/en/pr/news/en/2022/4148',
+        description: 'Press Release (en)'
+      },
+      {
+        url: 'https://linecorp.com/ja/pr/news/ja/2022/4147',
+        description: 'Press Release (jp)'
+      },
+      { url: 'https://ctftime.org/event/1472/' },
+    ],
+    date: { startedAt: '2022-03-26', endedAt: '2022-03-27'}
+  }
 ];
