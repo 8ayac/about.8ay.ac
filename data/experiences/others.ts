@@ -12,7 +12,7 @@ export const others: OtherExperience[] = [
   {
     title: 'ISCCTF 2020',
     summaries: [
-        'Organized ISCCTF 2020.',
+        'Organized ISCCTF 2020 as a member of team IPFactory.',
         'Made some web challenges. (Greetinjs, mark damn it)'
     ],
     references: [
