@@ -121,4 +121,22 @@ export const cves: CveExperience[] = [
     ],
     date: '2019-07-03',
   },
+  {
+    title: 'CVE-2022-22978',
+    summaries: [
+      'Authorization Bypass in RegexRequestMatcher of Spring Security',
+      'Contributed to identifying the cause in resolving this issue, and was credited.',
+    ],
+    references: [
+      {
+        url: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22978',
+        description: 'cve.mitre.org',
+      },
+      {
+        url: 'https://tanzu.vmware.com/security/cve-2022-22978',
+        description: 'CVE-2022-22978 | Security | VMware Tanzu',
+      },
+    ],
+    date: '2022-05-16',
+  },
 ];
