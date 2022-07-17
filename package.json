@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "upgrade": "yarn upgrade",
     "build": "run-s build:exp build:social build:next",
     "build:exp": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/experiences.ts",
     "build:social": "ts-node --project tsconfig.builder.json -r tsconfig-paths/register builder/social.ts",
@@ -23,16 +24,17 @@
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-regular-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "dayjs": "^1.10.6",
     "moment": "^2.29.1",
-    "next": "^11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.3.0",

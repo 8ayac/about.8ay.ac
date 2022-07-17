@@ -1,20 +1,12 @@
-import {
-  faGithub,
-  faLinkedin,
-  faTwitter,
-  IconDefinition,
-} from '@fortawesome/free-brands-svg-icons';
-import {
-  faBlog,
-  faLink,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  socialIcon,
-  socialLink,
-} from '@src/components/SocialLinkList/style';
-import { SocialInformation } from '@src/types';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {socialIcon, socialLink,} from '@src/components/SocialLinkList/style';
+import {SocialInformation} from '@src/types';
 import React from 'react';
+import {faGithub, faLinkedin, faTwitter, IconDefinition} from "@fortawesome/free-brands-svg-icons";
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faBlog, faLink} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faGithub, faBlog, faTwitter, faLinkedin, faLink)
 
 const getSocialIcon = (url: string): IconDefinition => {
   switch (true) {
