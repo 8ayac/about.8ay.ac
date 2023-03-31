@@ -38,5 +38,32 @@ export const others: OtherExperience[] = [
       { url: 'https://ctftime.org/event/1472/' },
     ],
     date: { startedAt: '2022-03-26', endedAt: '2022-03-27'}
+  },
+  {
+    title: 'LINE CTF 2023',
+    summaries: [
+        'Organized LINE CTF 2023 as a member of LINE AST(Application Security Team).',
+        'Made a web challenge. (Old Pal)'
+    ],
+    references: [
+      {
+        url: 'https://linecorp.com/en/pr/news/en/2023/4519',
+        description: 'Press Release (en)'
+      },
+      {
+        url: 'https://linecorp.com/ja/pr/news/ja/2023/4508',
+        description: 'Press Release (jp)'
+      },
+      { url: 'https://ctftime.org/event/1716' },
+      {
+        url: 'https://blog.8ay.ac/articles/2023-03-31/linectf-2023-web-oldpal-author-writeup',
+        description: 'LINE CTF 2023 [Web] Old Pal - Author\'s writeup - もしくはこれ'
+      },
+      {
+        url: 'https://blog.8ay.ac/articles/2023-03-31/linectf-2023-web-oldpal-author-writeup-english-ver',
+        description: 'LINE CTF 2023 [Web] Old Pal - Author\'s writeup [English] - もしくはこれ'
+      }
+    ],
+    date: { startedAt: '2023-03-25', endedAt: '2022-03-26'}
   }
 ];
