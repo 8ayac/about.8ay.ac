@@ -46,5 +46,18 @@ export const publications: PublicationExperience[] = [
       { url: 'https://github.com/WebAppPentestGuidelines/WebAppPentestGuidelines' },
       { url: 'https://isog-j.org/activities/#:~:text=WG1', description: 'About ISOG-J WG1'}
     ]
+  },
+  {
+    title: '細かすぎるけど伝わってほしい脆弱性診断手法ドキュメント',
+    summaries: [
+      'The document focused on minor vulnerabilities that are often overlooked',
+      'Co-authored with the ISOG-J WG1 members'
+    ],
+    date: '2023-04-12',
+    references: [
+      { url: 'https://news.yahoo.co.jp/articles/eadff573fdd6bad1d1d5f04cbbb2cf48d4cdfb4b' },
+      { url: 'https://scan.netsecurity.ne.jp/article/2023/04/19/49227.html' },
+      { url: 'https://isog-j.org/activities/#:~:text=WG1', description: 'About ISOG-J WG1'}
+    ]
   }
 ];
