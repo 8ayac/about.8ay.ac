@@ -14,5 +14,5 @@ export const social: SocialInformation[] = [
     url: 'https://www.linkedin.com/in/yoshinori-hayashi-102656149',
   },
   { description: 'Wantedly', url: 'https://www.wantedly.com/users/36919922' },
-  { description: 'Bluesky (for more casual purpose)', url: 'https://bsky.app/profile/8ay.ac' },
+  { description: 'Bluesky (99% personal)', url: 'https://bsky.app/profile/8ay.ac' },
 ];
