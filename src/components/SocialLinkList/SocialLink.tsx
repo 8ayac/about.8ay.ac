@@ -6,7 +6,7 @@ import {faGithub, faLinkedin, faXTwitter, faBluesky, IconDefinition} from "@fort
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faBlog, faLink} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faGithub, faBlog, faTwitter, faLinkedin, faLink)
+library.add(faGithub, faBlog, faXTwitter, faBluesky, faLinkedin, faLink)
 
 const getSocialIcon = (url: string): IconDefinition => {
   switch (true) {
