@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {socialIcon, socialLink,} from '@src/components/SocialLinkList/style';
 import {SocialInformation} from '@src/types';
 import React from 'react';
-import {faGithub, faLinkedin, faTwitter, IconDefinition} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedin, faXTwitter, faBluesky, IconDefinition} from "@fortawesome/free-brands-svg-icons";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faBlog, faLink} from "@fortawesome/free-solid-svg-icons";
 
@@ -14,8 +14,10 @@ const getSocialIcon = (url: string): IconDefinition => {
       return faGithub;
     case /^https?:\/\/.+?.hatenablog\.com/.test(url):
       return faBlog;
-    case /^https?:\/\/twitter.com\//.test(url):
-      return faTwitter;
+    case /^https?:\/\/x.com\//.test(url):
+      return faXTwitter;
+    case /^https:\/\/bsky\.app\//.test(url):
+      return faBluesky;
     case /^https?:\/\/www\.linkedin\.com\//.test(url):
       return faLinkedin;
     default:

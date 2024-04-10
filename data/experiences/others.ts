@@ -64,6 +64,14 @@ export const others: OtherExperience[] = [
         description: 'LINE CTF 2023 [Web] Old Pal - Author\'s writeup [English] - もしくはこれ'
       }
     ],
-    date: { startedAt: '2023-03-25', endedAt: '2022-03-26'}
+    date: { startedAt: '2023-03-25', endedAt: '2023-03-26'}
+  },
+  {
+    title: 'LINE CTF 2024', 
+    summaries: [
+      'Organized LINE CTF 2024 as a member of LY Corporation SAT1 (Security Assessment Team 1).',
+      'Made a web challenge. (Boom Boom Hell*)'
+    ],
+    date: { startedAt: '2024-03-23', endedAt: '2024-03-24' }
   }
 ];
