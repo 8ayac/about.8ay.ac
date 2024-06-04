@@ -72,6 +72,13 @@ export const others: OtherExperience[] = [
       'Organized LINE CTF 2024 as a member of LY Corporation SAT1 (Security Assessment Team 1).',
       'Made a web challenge. (Boom Boom Hell*)'
     ],
+    references: [
+      { url: 'https://ctftime.org/event/2119/'},
+      {
+        url: 'About Boom Boom Hell* (Task page in CTFTime)',
+        description: 'https://ctftime.org/task/28125',
+      },
+    ],
     date: { startedAt: '2024-03-23', endedAt: '2024-03-24' }
   }
 ];

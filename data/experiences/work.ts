@@ -26,16 +26,35 @@ export const work: WorkExperience[] = [
     belongsTo: 'LINE Corporation',
     position: 'Application Security Engineer',
     date: {
-      startedAt: '2021-04-01'
+      startedAt: '2021-04-01',
+      endedAt: '2023-09-31'
     },
     summaries: [
-      'Working as a member of the Application Security Team',
-      'Ensuring the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.'
+      'Worked as a member of the Application Security Team',
+      'Ensured the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.'
     ],
     references: [
       {
-        url: 'https://line-careers.website.line-apps.com/jobs/168',
-        description: 'Job description'
+        url: 'https://linecorp.com',
+        description: 'Corporate Site'
+      }
+    ]
+  },
+  {
+    belongsTo: 'LY Corporation',
+    position: 'Security Engineer',
+    date: {
+      startedAt: '2023-10-01',
+    },
+    summaries: [
+      '⚠Background⚠ LINE Corporation, the aforementioned company I worked for, became LY Corporation as of October 1, 2023',
+      'Working as a member of the Security Assessment Team 1',
+      'Ensuring the security and quality of a wide range services and products developed by LY Corporation and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
+    ],
+    references: [
+      {
+        url: 'https://www.lycorp.co.jp',
+        description: 'Corporate Site'
       }
     ]
   }
