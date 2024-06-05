@@ -30,8 +30,9 @@ export const work: WorkExperience[] = [
       endedAt: '2023-09-30',
     },
     summaries: [
-      'Worked as a member of the Application Security Team',
-      'Commit to ensure the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
+      'Was member of Application Security Team',
+      'Committed to ensure security and quality of a wide range services and products developed by LINE and group companies.' +
+      'JFYI: The platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
     ],
     references: [
       {
@@ -47,9 +48,11 @@ export const work: WorkExperience[] = [
       startedAt: '2023-10-01',
     },
     summaries: [
-      'Ensuring the security and quality of a wide range services and products developed by LY Corporation and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
-      'Conducting security tests and risk assessments, providing security consulting during planning and design, and creating application security standards.',
-      'Supporting the LINE Security Bug Bounty Program, developing DevSecOps tools, and managing the LINE CTF.'
+      'Ensure security and quality of a wide range services and products developed by LY Corporation and group companies',
+      'Do security tests, risk assessments and security consulting',
+      'Develop DevSecOps tools',
+      'Support LINE Security BBP',
+      'Organize LINE CTF.'
     ],
     references: [
       {
