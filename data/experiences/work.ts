@@ -27,7 +27,7 @@ export const work: WorkExperience[] = [
     position: 'Application Security Engineer',
     date: {
       startedAt: '2021-04-01',
-      endedAt: '2023-09-31'
+      endedAt: '2023-09-30',
     },
     summaries: [
       'Worked as a member of the Application Security Team',
