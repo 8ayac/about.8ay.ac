@@ -52,7 +52,7 @@ export const work: WorkExperience[] = [
       'Do security tests, risk assessments and security consulting',
       'Develop DevSecOps tools',
       'Support LINE Security BBP',
-      'Organize LINE CTF.'
+      'Organize LINE CTF'
     ],
     references: [
       {
