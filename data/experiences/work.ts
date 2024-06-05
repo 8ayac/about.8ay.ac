@@ -31,12 +31,12 @@ export const work: WorkExperience[] = [
     },
     summaries: [
       'Worked as a member of the Application Security Team',
-      'Ensured the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.'
+      'Commit to ensure the security and quality of a wide range services and products developed by LINE and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
     ],
     references: [
       {
         url: 'https://linecorp.com',
-        description: 'Corporate Site'
+        description: 'LINE Corporation'
       }
     ]
   },
@@ -54,7 +54,7 @@ export const work: WorkExperience[] = [
     references: [
       {
         url: 'https://www.lycorp.co.jp',
-        description: 'Corporate Site'
+        description: 'LY Corporation'
       }
     ]
   }
