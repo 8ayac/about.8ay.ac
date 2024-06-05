@@ -6,10 +6,6 @@ export const social: SocialInformation[] = [
   { description: 'GitHub', url: 'https://github.com/8ayac' },
   { description: 'Blog', url: 'https://blog.8ay.ac' },
   {
-    description: 'BugBounty.jp',
-    url: 'https://bugbounty.jp/users/7BgpyIvzQWQXFbmBMY0Jfpse',
-  },
-  {
     description: 'LinkedIn',
     url: 'https://www.linkedin.com/in/yoshinori-hayashi-102656149',
   },
