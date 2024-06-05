@@ -76,7 +76,7 @@ export const others: OtherExperience[] = [
       { url: 'https://ctftime.org/event/2119/'},
       {
         url: 'https://ctftime.org/task/28125', 
-        description: 'About Boom Boom Hell* (Task page in CTFTime)',
+        description: 'Boom Boom Hell* (Task page in CTFTime)',
       },
     ],
     date: { startedAt: '2024-03-23', endedAt: '2024-03-24' }
