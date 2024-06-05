@@ -47,9 +47,9 @@ export const work: WorkExperience[] = [
       startedAt: '2023-10-01',
     },
     summaries: [
-      '⚠Background⚠ LINE Corporation, the aforementioned company I worked for, became LY Corporation as of October 1, 2023',
-      'Working as a member of the Security Assessment Team 1',
       'Ensuring the security and quality of a wide range services and products developed by LY Corporation and group companies. Platforms and technologies include Web, mobile, desktop, IoT, Fintech, and more.',
+      'Conducting security tests and risk assessments, providing security consulting during planning and design, and creating application security standards.',
+      'Supporting the LINE Security Bug Bounty Program, developing DevSecOps tools, and managing the LINE CTF.'
     ],
     references: [
       {
