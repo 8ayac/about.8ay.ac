@@ -51,8 +51,8 @@ export const work: WorkExperience[] = [
       'Ensure security and quality of a wide range services and products developed by LY Corporation and group companies',
       'Do security tests, risk assessments and security consulting',
       'Develop DevSecOps tools',
-      'Support LINE Security BBP',
-      'Organize LINE CTF'
+      'Support LINE Security Bug Bounty Program',
+      'Organize LINE CTF and create (web) challenge for it'
     ],
     references: [
       {
