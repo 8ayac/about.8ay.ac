@@ -10,7 +10,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => (
     <ThemeProvider theme={theme}>
       <Global styles={globalStyle} />
       <Head>
-        <title>About 8ayac</title>
+        <title>林 義徳 (@8ayac)</title>
       </Head>
       {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
