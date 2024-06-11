@@ -15,7 +15,7 @@ export const OGPSetting: React.FC = () => {
       <meta property="og:site_name" content="about.8ay.ac" />
       <meta
         property="og:description"
-        content="林 義徳 (@8ayac)"
+        content="Official information about 8ayac"
       />
 
       <meta property="profile:first_name" content="Yoshinori" />
