@@ -4,7 +4,7 @@ import React from 'react';
 export const OGPSetting: React.FC = () => {
   return (
     <>
-      <meta property="og:title" content="about.8ay.ac" />
+      <meta property="og:title" content="About 8ayac" />
       <meta property="og:type" content="profile" />
       <meta property="og:url" content="https://about.8ay.ac" />
       <meta
